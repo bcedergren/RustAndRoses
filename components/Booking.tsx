@@ -54,7 +54,7 @@ export default function Booking() {
                 <div className="w-10 h-10 rounded-full bg-rose/10 flex items-center justify-center">
                   <MapPin size={16} className="text-rose" />
                 </div>
-                <span className="text-sm">Based in Austin, TX — available regionwide</span>
+                <span className="text-sm">Based in Minneapolis, MN — available regionwide</span>
               </div>
             </div>
 

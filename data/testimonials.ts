@@ -10,22 +10,22 @@ export const testimonials: Testimonial[] = [
   {
     quote:
       "Rust & Roses packed our room on a Tuesday night. The crowd didn't sit down once. We've already booked them for three more dates.",
-    name: "Mike Hernandez",
+    name: "Mike Lindgren",
     role: "Owner",
-    venue: "The Rusty Nail – Austin, TX",
+    venue: "Lee's Liquor Lounge – Minneapolis, MN",
   },
   {
     quote:
       "Professional, easy to work with, and they absolutely crushed it. The dance floor was full from the first song to the last.",
     name: "Sarah Chen",
     role: "Events Manager",
-    venue: "Warehouse Live – Houston, TX",
+    venue: "The Cabooze – Minneapolis, MN",
   },
   {
     quote:
       "We hired them for a corporate event and they read the room perfectly. Started smooth, built the energy, and had everyone on their feet by the end of the night.",
-    name: "David Okafor",
+    name: "David Engstrom",
     role: "Event Coordinator",
-    venue: "Private Event – Dallas, TX",
+    venue: "Private Event – Wayzata, MN",
   },
 ];

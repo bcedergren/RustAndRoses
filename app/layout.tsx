@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   keywords: [
     "cover band",
     "live music",
-    "Austin TX",
+    "Minneapolis MN",
     "bar band",
     "rock cover band",
     "blues cover band",

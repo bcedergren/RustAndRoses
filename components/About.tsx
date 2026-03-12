@@ -45,8 +45,8 @@ export default function About() {
           */}
           <p className="text-cream/80 text-lg leading-relaxed mb-6">
             Rust &amp; Roses is a high-energy cover band built from seasoned
-            musicians who&rsquo;ve spent years on stages across Texas and
-            beyond. We bring the raw edge of hard rock, the soul of the blues,
+            musicians who&rsquo;ve spent years on stages across the Twin Cities
+            and beyond. We bring the raw edge of hard rock, the soul of the blues,
             and the hooks that pack a dance floor — all delivered with a polish
             that keeps us getting booked back.
           </p>

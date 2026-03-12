@@ -53,7 +53,7 @@ export default function Footer() {
             <Logo size="sm" />
             <p className="text-steel-dark text-sm text-center md:text-left max-w-xs">
               Live cover music built for bars, clubs, and stages that
-              don&rsquo;t quit. Based in Austin, TX.
+              don&rsquo;t quit. Based in Minneapolis, MN.
             </p>
           </div>
 
