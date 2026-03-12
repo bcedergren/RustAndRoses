@@ -1,6 +1,7 @@
 "use client";
 
 import { Guitar, Mic, Users, Zap } from "lucide-react";
+import Image from "next/image";
 
 const highlights = [
   {
@@ -77,24 +78,16 @@ export default function About() {
           ))}
         </div>
 
-        {/* ─── Band photo placeholder ─── */}
+        {/* ─── Band photo ─── */}
         <div className="mt-16 max-w-4xl mx-auto">
-          {/*
-            SWAP: Replace this placeholder with a real band photo.
-            Recommended: wide landscape shot, ~1200×600px,
-            dark/moody lighting preferred.
-            Use Next.js <Image /> component for optimization.
-          */}
-          <div className="aspect-[2/1] bg-charcoal border border-white/5 flex items-center justify-center">
-            <div className="text-center text-steel-dark">
-              <Users size={48} className="mx-auto mb-3 opacity-30" />
-              <p className="font-display tracking-wider uppercase text-sm">
-                Band Photo Placeholder
-              </p>
-              <p className="text-xs mt-1 opacity-50">
-                Replace with your group shot (1200×600 recommended)
-              </p>
-            </div>
+          <div className="relative aspect-[3/2] overflow-hidden border border-white/5">
+            <Image
+              src="/images/photos/band_photo.png"
+              alt="Rust & Roses performing live on stage"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 896px"
+            />
           </div>
         </div>
       </div>
